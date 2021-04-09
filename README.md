@@ -1,5 +1,5 @@
-# explodeOS
-An OS based on the OSDev bare bones C kernel.
+# explodeOS-Gameboy
+An OS based on the OSDev bare bones C kernel, forked for... GAMEBOY????
 ## TODO
 - [x] Kernel panic
 - [x] i386 support
@@ -13,3 +13,5 @@ An OS based on the OSDev bare bones C kernel.
 - [ ] Updates
 ### Why not get these things from other projects?
 I want to be less of a [Duct von Tape](https://wiki.osdev.org/Duct_von_Tape), so I'm actually trying to learn something. Still, if you can help, that's appreciated!
+## Gameboy
+I found this on OSDev and I'm gonna try doing this for Gameboy.
