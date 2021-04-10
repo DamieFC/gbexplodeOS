@@ -6,10 +6,10 @@ mkdir -p isodir
 mkdir -p isodir/boot
 mkdir -p isodir/boot/grub
  
-cp sysroot/boot/explodeos.kernel isodir/boot/explodeos.kernel
+cp sysroot/boot/gbexplodeos.kernel isodir/boot/gbexplodeos.kernel
 cat > isodir/boot/grub/grub.cfg << EOF
-menuentry "explodeos" {
-	multiboot /boot/explodeos.kernel
+menuentry "gbexplodeos" {
+	multiboot /boot/gbexplodeos.kernel
 }
 EOF
-grub-mkrescue -o explodeos.iso isodir
+grub-mkrescue -o gbexplodeos.iso isodir
