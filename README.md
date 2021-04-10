@@ -1,4 +1,4 @@
-# explodeOS-Gameboy
+# gbexplodeOS
 An OS based on the OSDev bare bones C kernel, forked for... GAMEBOY????
 ## TODO
 - [x] Kernel panic
