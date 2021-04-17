@@ -14,7 +14,7 @@ main:
     mov r1, #0x400
     add r1, r1, #3
     str r1, [r0]
- 
+ /* Anyone know how to write "hi"? */
     plot_pixel 115, 80, #0x1F
     plot_pixel 120, 80, #0x03E0
     plot_pixel 125, 80, #0x7C00
